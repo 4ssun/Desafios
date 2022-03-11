@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@100&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* barras de rolamento */
+body {
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    /* tamanho da barra */
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(96, 112, 75);
+    /* cor de fundo da barra */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #a4beab;
+    /* cor da barra */
+    border-radius: 20px;
+    /* roundness of the scroll thumb */
+    border: 2px solid #a4beab;
+    /* padding pra aredondar */
+}
+
+/* Tudo no .meio vai alinhar ao meio.*/
+.meio {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+section {
+    min-height: calc(100vw - 75px - 100px);
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background: #919f89;
+    margin-bottom: 10px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18pt;
+    width: 100%;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    background: #a4beab;
+    transition: 0.6s;
+    border-radius: 50% 50px;
+}
+
+section {
+    padding: 10px 10px;
+
+}
+
+dd,
+dt {
+    padding-bottom: 10px;
+}
+
+p {
+    padding: 8px 8px 8px 0;
+}
+
+#duvida {
+    width: 100%;
+    background: rgb(83, 71, 71);
+    border-radius: 50%;
+}
+
+.geral {
+    display: grid;
+    grid-template-columns: 1fr 15%;
+    align-items: center;
+}
+
+#rodape {
+    background: #919f89;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.copy {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+#logo {
+    width: 105px;
+}
+.dev {
+    display: grid;
+    align-items: center;
+    text-align: right;
+    grid-template-columns: 1fr 105px;
+}
+
+fieldset {
+    color: white;
+    border: #919f89;
+}
+fieldset legend{
+    color: white;
+    background: #a4beab;
+    font-size: 20px;
+    border-radius: 50% 50px;
+}
+form{
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    max-width: 400px;
+}
+#forms{
+    background: rgb(54, 50, 50);
+    border-radius: 10% 65px;
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type=text],[type=email],textarea,span{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+input[type=submit]{
+    display: block;
+    margin: 0 auto;
+}
+.compra {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    gap: 15px;
+}
+.compra__title{
+    font-size: 25px;
+    margin-top: 20px;
+}
+.compra__list{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.compra__item{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 1px 1px 5px gray
+}
+.compra__adc{
+    display: flex;
+    background-color: #919f89;
+    width: 100%;
+    height: 65px;
+    justify-content: center;
+    padding: 10px 0;
+    box-shadow: 1px 1px 5px gray;
+    margin: 15px;
+}

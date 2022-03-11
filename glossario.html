@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <title>Glossário</title>
+    <meta
+      name="descricao"
+      content="desafio rocketseat de HTML aqui no GITHUB."
+    />
+  </head>
+
+  <body>
+    <header id="cabecalho">
+      <nav>
+        <a href="glossario.html"> Glossário </a>
+        <a href="contato.html"> Contato </a>
+        <a href="lista.html"> Lista </a>
+        <a> Quiz </a>
+        <a> Blog </a>
+      </nav>
+    </header>
+    <section class="meio">
+      <div class="geral">
+        <div>
+          <h1>O que é um Glossário?</h1>
+          <p>
+            Glossário é um dicionário que busca explicar o significado de termos
+            pouco conhecidos ou arcáicos
+          </p>
+        </div>
+        <div class="duvida">
+          <img src="apoio/annoyed.png" id="duvida" />
+        </div>
+      </div>
+
+      <h2>Então, como criar um glossário em HTML5?</h2>
+      <p>
+        Você precisa ter em mente três termos para construção de um Glossário:
+        <strong>dl,dt e dd</strong>.
+      </p>
+      <dl>
+        <dt>
+          <h3>Definition List (dl)</h3>
+        </dt>
+        <dd>
+          É como você vai iniciar o glossário, a Tag dl é a abertura de uma
+          lista de definições de termos e descrições.
+        </dd>
+        <dt>
+          <h3>Definition Term (dt)</h3>
+        </dt>
+        <dd>
+          É o termo que vou buscar dar definição a ele com a tag dd, posso criar
+          vários dt's para serem definidos em uma única dt.
+        </dd>
+        <dt>
+          <h3>Definition Description (dd)</h3>
+        </dt>
+        <dd>
+          É onde chegamos na descrição dos termos. Aqui vai entrar toda
+          descrição que busca explicar os itens de uma dt.
+        </dd>
+      </dl>
+      <br />
+      <h2>Conclusão</h2>
+      <p>
+        Glossário é uma forma mega simples de tornar algum item do seu site
+        descritivo e explicativo com essa tag própria, tendo também como opção a
+        table list. Opção excelente para sites instituicionais ou de tutoriais.
+      </p>
+    </section>
+
+    <footer id="rodape">
+      <div class="meio copy">
+        &copy; Copyright 2022 - Todos os direitos reservados.
+        <div class="dev">
+          Desenvolvido por
+
+          <a href="https://www.instagram.com/4na4ssun/">
+            <img src="apoio/Logotipo - Assun (Branco).png" id="logo"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

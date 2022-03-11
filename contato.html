@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="header.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <nav>
+        <a href="glossario.html"> Glossário </a>
+        <a href="contato.html"> Contato </a>
+        <a href="lista.html"> Lista </a>
+        <a> Quiz </a>
+        <a> Blog </a>
+      </nav>
+    </header>
+    <section>
+      <div class="meio" id="forms">
+        <form>
+          <fieldset>
+            <legend>Entre em Contato</legend>
+            <br />
+            <datalist id="opcoes">
+              Assunto
+              <option>Suporte</option>
+              <option>Sugestão</option>
+              <option>Reclamação</option>
+              <option>Outros</option>
+            </datalist>
+            <label for="nome">Seu Nome completo:</label
+            ><input id="nome" type="text" /> Selecione uma opção:<input
+              list="opcoes"
+              type="text"
+              id="lista"
+            />
+            <label for="email">E-mail para contato:</label
+            ><input id="email" type="email" placeholder="email@email.com" />
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" cols="40" rows="15"></textarea>
+
+            <span>
+              <input type="checkbox" />Aceito receber novidades no meu
+              e-mail</span
+            >
+            <input type="submit" id="enviar" />
+          </fieldset>
+        </form>
+      </div>
+    </section>
+    <footer id="rodape">
+      <div class="meio copy">
+        &copy; Copyright 2022 - Todos os direitos reservados.
+        <div class="dev">
+          Desenvolvido por
+
+          <a href="https://www.instagram.com/4na4ssun/">
+            <img src="apoio/Logotipo - Assun (Branco).png" id="logo"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
